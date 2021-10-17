@@ -46,9 +46,9 @@ public class ProductController {
 	public Product retriveProducts(@PathVariable Integer theId) {
 		Product theProduct = service.getProduct(theId);
 		
-		if(theProduct==null) {
+		if(theProduct== null) {
 			throw new ProductNotFoundException("Id -" + theId);
-		}
+			}
 		
 		return theProduct;
 	}
