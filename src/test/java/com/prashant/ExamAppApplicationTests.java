@@ -23,7 +23,7 @@ class ExamAppApplicationTests {
 
 	@Autowired
 	ProductRepository repo;
-	
+	/*
 	@Test
 	@Order(2)
 	public void createTest() {
@@ -62,7 +62,8 @@ class ExamAppApplicationTests {
   @Order(5)
   public void testDelete () { 
  repo.deleteById(5);
-  assertThat(repo.existsById(5)).isFalse(); } }
+  assertThat(repo.existsById(5)).isFalse(); } */
+  }
  
 
 
